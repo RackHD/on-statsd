@@ -1,6 +1,6 @@
 renasar-statsd
 ==============
-Renasa-statsd wraps [etsy's statsD](https://github.com/etsy/statsd) and 
+Renasar-statsd wraps [etsy's statsD](https://github.com/etsy/statsd) and 
 furnishes it with a [config](./lib/config) file pointed where we expect 
 there to be a graphite backend server. 
 
