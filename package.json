@@ -1,0 +1,24 @@
+{
+  "name": "renasar-statsd",
+  "version": "0.0.0",
+  "description": "renasar-statsd ==============",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/renasar/renasar-statsd.git"
+  },
+  "author": "",
+  "license": "Proprietary ",
+  "bugs": {
+    "url": "https://github.com/renasar/renasar-statsd/issues"
+  },
+  "homepage": "https://github.com/renasar/renasar-statsd",
+  "dependencies":{
+    "statsD":"git+ssh://git@github.com:etsy/statsd.git",
+    "di": "git+ssh://git@github.com/renasar/di.js.git",
+    "mongo-statsd-backend":"git+ssh://git@github.com:dynmeth/mongo-statsd-backend.git"
+  }
+}
