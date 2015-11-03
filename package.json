@@ -17,7 +17,7 @@
   "homepage": "https://github.com/RackHD/on-statsd",
   "dependencies":{
     "statsD":"git+https://github.com/etsy/statsd.git",
-    "di": "git+https://5f5fdee3b5f3bc054cece98ad854c3090043f3c0:x-oauth-basic@github.com/RackHD/di.js.git",
+    "di": "git+https://github.com/RackHD/di.js.git",
     "mongo-statsd-backend":"git+https://github.com/dynmeth/mongo-statsd-backend.git"
   }
 }
