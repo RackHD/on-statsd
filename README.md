@@ -1,4 +1,4 @@
-# on-statsd [![Coverage Status](https://coveralls.io/repos/RackHD/on-statsd/badge.svg?branch=master&service=github)](https://coveralls.io/github/RackHD/on-statsd?branch=master)
+# on-statsd [![Build Status](https://travis-ci.org/RackHD/on-statsd.svg?branch=master)](https://travis-ci.org/RackHD/on-statsd) [![Code Climate](https://codeclimate.com/github/RackHD/on-statsd/badges/gpa.svg)](https://codeclimate.com/github/RackHD/on-statsd) [![Coverage Status](https://coveralls.io/repos/RackHD/on-statsd/badge.svg?branch=master&service=github)](https://coveralls.io/github/RackHD/on-statsd?branch=master)
 
 
 `on-statsd` wraps [etsy's statsD](https://github.com/etsy/statsd) and
