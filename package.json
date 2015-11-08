@@ -15,9 +15,12 @@
     "url": "https://github.com/RackHD/on-statsd/issues"
   },
   "homepage": "https://github.com/RackHD/on-statsd",
-  "dependencies":{
-    "statsD":"git+https://github.com/etsy/statsd.git",
+  "dependencies": {
+    "statsD": "git+https://github.com/etsy/statsd.git",
     "di": "git+https://github.com/RackHD/di.js.git",
-    "mongo-statsd-backend":"git+https://github.com/dynmeth/mongo-statsd-backend.git"
+    "mongo-statsd-backend": "git+https://github.com/dynmeth/mongo-statsd-backend.git"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.4"
   }
 }
