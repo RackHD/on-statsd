@@ -1,6 +1,12 @@
 language: node_js
+
 node_js:
   - "0.10"
+  - "4"
+
+matrix:
+  allow_failures:
+   - node_js: "4"
 
 notifications:
   slack:
@@ -9,4 +15,3 @@ notifications:
     on_success: never
     on_failure: always
     on_start: never
-    
