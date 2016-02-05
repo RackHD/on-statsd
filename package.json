@@ -18,7 +18,7 @@
   "dependencies": {
     "statsD": "git+https://github.com/etsy/statsd.git",
     "di": "git+https://github.com/RackHD/di.js.git",
-    "mongo-statsd-backend": "git+https://github.com/dynmeth/mongo-statsd-backend.git"
+    "statsd-elasticsearch-backend": "git+https://github.com/markkimsal/statsd-elasticsearch-backend.git"
   },
   "devDependencies": {
     "coveralls": "^2.11.4"
