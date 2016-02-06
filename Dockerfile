@@ -17,5 +17,4 @@ RUN cp -a /tmp/node_modules /RackHD/on-statsd/
 EXPOSE 8125
 EXPOSE 8125/udp
 
-ENTRYPOINT [ "node" ]
-CMD [ "/RackHD/on-statsd/index.js" ]
+CMD [ "node", "/RackHD/on-statsd/index.js" ]
