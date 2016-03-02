@@ -12,9 +12,8 @@ RUN cd /tmp \
   && npm install --ignore-scripts --production
 
 COPY . /RackHD/on-statsd/
-RUN cp -a /tmp/node_modules /RackHD/on-statsd/
+RUN cp -a -f /tmp/node_modules /RackHD/on-statsd/
 
-EXPOSE 8125
 EXPOSE 8125/udp
 
 CMD [ "node", "/RackHD/on-statsd/index.js" ]
