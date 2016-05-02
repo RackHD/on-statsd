@@ -5,4 +5,5 @@
 .travis.yml
 Dockerfile
 LICENSE
+node_modules/
 README.md
