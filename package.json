@@ -1,6 +1,6 @@
 {
   "name": "on-statsd",
-  "version": "0.0.0",
+  "version": "0.9.0",
   "description": "on-statsd ==============",
   "main": "index.js",
   "scripts": {
